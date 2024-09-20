@@ -10,11 +10,11 @@ Welcome to my latest front-end project! This Apple eCommerce website is designed
       <tr border="none">
         <td width="50%" align="left">
           <ul dir="auto">
-            <img align="center" src="https://github.com/chamikathereal/Pop-Apple/blob/main/img/page-preview/index-page.jpeg" alt="Apple eCommerce Website Preview" style="max-width: 100%;"></img>
+            <img align="center" src="https://github.com/chamikathereal/Pop-Apple/blob/main/img/page-preview/index-page.jpeg" alt="Apple eCommerce Website Preview" ></img>
           </ul>
         </td>
         <td width="50%" align="center">
-           <img align="center" src="https://github.com/chamikathereal/Pop-Apple/blob/main/img/page-preview/macbook-page.jpeg" alt="Apple eCommerce Website Preview" height="483"></img>
+           <img align="center" src="https://github.com/chamikathereal/Pop-Apple/blob/main/img/page-preview/macbook-page.jpeg" alt="Apple eCommerce Website Preview" ></img>
         </td>
       </tr>
     </tbody>

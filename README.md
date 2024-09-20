@@ -1,7 +1,5 @@
 # 🚀 Apple eCommerce Website Design 🚀
 
-![Apple eCommerce Website Preview](./path-to-your-image.jpg)
-
 Welcome to my latest front-end project! This Apple eCommerce website is designed to showcase a modern, user-friendly interface for selling Apple products online. As part of my journey as an undergraduate software engineer, this project allowed me to enhance my front-end development skills using HTML, CSS, Bootstrap, and JavaScript.
 
 <markdown-accessiblity-table>

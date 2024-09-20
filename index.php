@@ -11,6 +11,7 @@
     <link rel="icon" href="img/images/favicon.png" />
 </head>
 
+<!-- IndexBody -->
 <body class="index-body">
     <?php include "navbar.php"; ?>
     <div class="container-fluid">

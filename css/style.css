@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 56px;
+}
+
+.sidebar-nav {
+  width: var(--offcanvas-width);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-link .right-icon {
+  display: inline-flex;
+}
+
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+}
+
+.signinBtn {
+  padding: 5px 65px;
+  background-color: #087B75;
+}
+
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  main {
+    margin-left: var(--offcanvas-width);
+  }
+
+  /* this is to remove the backdrop */
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+
+  .sidebar-nav {
+    -webkit-transform: none;
+    transform: none;
+    visibility: visible !important;
+    height: calc(100% - var(--topNavbarHeight));
+    top: var(--topNavbarHeight);
+  }
+}
+
+@media (max-width: 576px) {
+  .dropdown-for-messages {
+    width: 350px;
+    justify-content: center;
+  }
+
+  .item-image {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .body {
+    font-size: 14px;
+  }
+
+  .dropdown-for-messages {
+    width: 700px;
+    justify-content: center;
+  }
+
+  .item-image {
+    width: 15%;
+  }
+}
+
+.aboutus-intro-img {
+  width: 50%;
+}
+
+.item-prvw-img{
+  width: 50%;
+  border: 5px solid #000; 
+  border-radius: 5%;
+}
+
+/* Style form container */
+
+
+/* Style form labels */
+.form-group label {
+  font-weight: bold;
+}
+
+/* Style form select elements */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style checkboxes and labels */
+.form-check-label {
+  margin-left: 5px;
+}
+
+/* Add some margin to the checkboxes for better spacing */
+.form-check-inline {
+  margin-right: 10px;
+}

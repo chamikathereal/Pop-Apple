@@ -7,6 +7,8 @@
     <title>Pop Apple - Home</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper Js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="icon" href="img/images/favicon.png" />
 </head>

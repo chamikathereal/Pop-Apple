@@ -21,7 +21,7 @@
         <!-- Header and Carousel -->
         <div class="col-12">
 
-            <!-- Shop Name -->
+            <!-- Apple Shop Name -->
             <div class="col-12 mt-4 mb-4 d-flex justify-content-center">
                 <div class="col-8">
                     <a href="index.php" class="shop-name-anchor headers-font bold-font">
